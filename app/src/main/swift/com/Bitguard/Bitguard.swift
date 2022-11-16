@@ -5,9 +5,9 @@ import swift.content.Context
 import swift.preference.PreferenceManager
 import swift.security.crypto.EncryptedSharedPreferences
 import swift.security.crypto.MasterKey
-import com.iriswallet.data.SharedPreferencesManager
-import com.iriswallet.utils.AppConstants
-import com.iriswallet.utils.AppContainer
+import com.bitguard.data.SharedPreferencesManager
+import com.bitguard.utils.AppConstants
+import com.bitguard.utils.AppContainer
 
 class Bitguard : Application() {
 
