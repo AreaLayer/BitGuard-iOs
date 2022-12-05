@@ -125,3 +125,11 @@ jarsigner -keystore ~/android-keystores/iriswallet.jks app/build/outputs/bundle/
 [bdk-swift]: https://github.com/bitcoindevkit/bdk-swift
 [rgb-lib]: https://github.com/RGB-Tools/rgb-lib
 [rgb-lib-swift]: https://github.com/RGB-Tools/rgb-lib-swift
+
+## To-Do
+
+- [ ] Testnet
+- [ ] Mainnet
+- [ ] Fees
+- [ ] UI 
+- [ ] Finalize Swift code
