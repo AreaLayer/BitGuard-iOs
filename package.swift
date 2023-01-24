@@ -8,14 +8,16 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "About Me",
+    name: "Bitguard",
     platforms: [
-        .iOS("15.2")
+        .iOS("15.2"),
+        .macOS("12"),
+        
     ],
     products: [ 
         .iOSApplication(
-            name: "About Me",
-            targets: ["App"],
+            name: "BitGuard",
+            targets: ["App", "Bitcoin", "RGB" , "Lightning Network"],
             displayVersion: "1.0",
             bundleVersion: "1",
             iconAssetName: "AppIcon",
