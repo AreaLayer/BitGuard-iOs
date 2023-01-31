@@ -8,10 +8,10 @@ struct object AppConstants: AppConstants{
     var encryptedSharedPreferencesName = "secret_shared_prefs"
     
      var maxAssets = 100
-    varsatsForRgb = 9000UL
-   var rgbBlindDuration = 86400U
-    var rgbDefaultPrecision: UByte = 0U
-    const val issueMaxAmount: ULong = 18446744073709551615UL
+    var satsForRgb = 9000
+   var rgbBlindDuration = 86400
+    var rgbDefaultPrecision: UByte = 0
+    var issueMaxAmount: ULong = 18446744073709551615
 
     var coloredWallet = "colored"
     var vanillaWallet = "vanilla"
