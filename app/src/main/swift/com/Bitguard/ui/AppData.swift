@@ -13,6 +13,7 @@ struct Info {
     let foods: [String]
     let colors: [Color]
     let funFacts: [String]
+    let RGBAssets: [String]
 }
 
 let information = Info(
