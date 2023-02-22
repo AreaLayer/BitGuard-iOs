@@ -51,31 +51,31 @@ struct object AppConstants: AppConstants{
             "https://rgb-faucet.rgbtools.org/mainnet/",
         )
 
-    const val privacyPolicyURL = ""
+   var privacyPolicyURL = ""
 
-    const val testnetTermsOfServiceURL = ""
-    const val mainnetTermsOfServiceURL = ""
+    var testnetTermsOfServiceURL = ""
+    var mainnetTermsOfServiceURL = ""
 
-    const val bdkTimeout = 5
-    const val bdkRetry = 3
-    const val bdkStopGap = 10
-    const val bdkDBName = "bdk_db_%s"
+    var bdkTimeout = 5
+    var bdkRetry = 3
+    var bdkStopGap = 10
+    var bdkDBName = "bdk_db_%s"
 
-    const val httpConnectTimeout = 3L
-    const val httpReadWriteTimeout = 60L
+    var httpConnectTimeout = 3L
+    var httpReadWriteTimeout = 60L
 
-    const val receiveDataClipLabel = "rgb_receive_data"
-    const val assetIdClipLabel = "rgb_asset_id"
+    var receiveDataClipLabel = "rgb_receive_data"
+    var assetIdClipLabel = "rgb_asset_id"
 
-    const val transferDateFmt = "yyyy-MM-dd"
-    const val transferTimeFmt = "HH:mm:ss"
-    const val transferFullDateFmt = "$transferDateFmt $transferTimeFmt"
+    var transferDateFmt = "yyyy-MM-dd"
+    var transferTimeFmt = "HH:mm:ss"
+    var transferFullDateFmt = "$transferDateFmt $transferTimeFmt"
 
-    const val waitDoubleBackTime = 2000L
+    var waitDoubleBackTime = 2000L
 
-    const val veryLongTimeout = 120000L
-    const val longTimeout = 40000L
-    const val shortTimeout = 20000L
+    var veryLongTimeout = 120000L
+    var longTimeout = 40000L
+    var hortTimeout = 20000L
 }
 
-const val satsForWallet = 1000UL
+ var satsForWallet = 1000UL
