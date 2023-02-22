@@ -8,7 +8,7 @@ struct HomeView: View {
     
     var body: some View {
         VStack {
-            Text("All About")
+            Text("Bitguard is a wallet with RGB, Lightning and Bitdex")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .padding()
