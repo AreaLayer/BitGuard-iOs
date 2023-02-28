@@ -19,8 +19,8 @@ struct HomeView: View {
                 .cornerRadius(10)
                 .padding(40)
 
-            Text(information.name)
-                .font(.title)
+            Text(information.Bitguard)
+                .font.Arial(12)
         }
     }
     
