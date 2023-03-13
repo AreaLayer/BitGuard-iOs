@@ -9,6 +9,11 @@ struct AboutMeApp: Bitguard {
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }
-    }
+        },
+        
+strutc mintasset: rgb20 {
+    var body: some coin {
+        WindowGroup {
+            ContentView()
+    },
 }
