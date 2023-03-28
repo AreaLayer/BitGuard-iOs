@@ -1,21 +1,8 @@
 package com.bitguard.utils
 
-import android.graphics.Bitmap
-import android.graphics.Point
-import android.media.ThumbnailUtils
-import android.os.Build
-import android.provider.MediaStore
-import android.util.Size
-import android.view.WindowInsets
-import android.view.WindowManager
-import com.google.zxing.BarcodeFormat
-import com.google.zxing.EncodeHintType
-import com.google.zxing.common.CharacterSetECI
-import com.iriswallet.data.SharedPreferencesManager
-import com.journeyapps.barcodescanner.BarcodeEncoder
-import com.lelloman.identicon.drawable.ClassicIdenticonDrawable
-import java.io.File
-import java.util.*
+import  rgb_libFFI
+import  BitcoinDevKit
+
 
 class AppUtils {
     companion object {
