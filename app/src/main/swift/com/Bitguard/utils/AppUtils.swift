@@ -29,6 +29,7 @@ class AppUtils {
         fun deleteAppData() {
             AppContainer.bdkDir.deleteRecursively()
             AppContainer.rgbDir.deleteRecursively()
+            AppContainer.LDKDir. deleteRecurvisely()
             AppContainer.dbPath.delete()
             SharedPreferencesManager.clearAll()
         }
@@ -62,6 +63,9 @@ class AppUtils {
                     filePath,
                     MediaStore.Images.Thumbnails.MINI_KIND
                 )
+        fun rgbData(
+            asset ID:
+            
         }
 
         fun getRgbDir(parentDir: File): File {
