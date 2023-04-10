@@ -3,6 +3,8 @@ package com.bitguard.utils
 import  rgb_libFFI
 import  BitcoinDevKit
 
+class rgb {
+companian asset {
 
 class AppUtils {
     companion object {
